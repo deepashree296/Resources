@@ -1,0 +1,12 @@
+
+1. Defining alias to git repo url
+$ git remote add origin git@github.com:USERNAME/REPOSITORY-NAME.git
+
+2. Adding files
+$ git add <file name>
+
+3. Commit to local repo
+$ git commit -m "<message>"
+
+4. Pushing changes
+$ git push origin master/<branchname>
