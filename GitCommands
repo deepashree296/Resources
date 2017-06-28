@@ -10,3 +10,8 @@ $ git commit -m "<message>"
 
 4. Pushing changes
 $ git push origin master/<branchname>
+
+
+git config --global http.proxy %HTTP_PROXY%
+git remote set-url origin https://deepashree296@github.com/deepashree296/demo_app2.git
+unset SSH_ASKPASS
